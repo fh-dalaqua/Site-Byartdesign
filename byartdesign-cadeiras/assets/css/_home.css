@@ -1,0 +1,108 @@
+.banner{
+    background: radial-gradient(var(--color-yellow1),var(--color-yellow2));
+}
+    
+.banner.linha{
+    margin-top: 70px;
+}
+
+.container{
+    max-width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.banner p{
+    color: var(--color-black);
+}
+
+.linha{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: 45%;
+    min-width: 600px;
+}
+
+.col-2 img{
+    max-width: 110%;
+    padding: 30px 0px;
+}
+
+.col-2 h1{
+    font-size: 60px;
+    line-height: 70px;
+    margin: 25px 0px;
+}
+
+.col-2 h1 p{
+    font-weight: 600;
+    color: var(--color-black);
+}
+
+.btn{
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--color-dark);
+    padding: 16px 40px;
+    margin: 40px 0px;
+    border-radius: 30px;
+    transition: all 0.4s ease-out;
+}
+
+.btn:hover{
+    background: linear-gradient(135deg, #000 0%, #400000 30%, #A80000 70%, #FF0000 100%);
+    color: #fff;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7); /* Brilho azul */
+    transform: translateY(-2px); /* Efeito de levitação */
+}
+
+.categorias{
+    margin: 70px 0px;
+}
+
+.corpo_categorias{
+    max-width: 1080px;
+    margin: auto;
+    padding: 0px 25px 0px 25px;
+}
+
+.col-3{
+    
+}
+
+.col-3 img{
+    width: 600px;
+}
