@@ -1,0 +1,13 @@
+
+@media (max-width: 1140px) {
+    .container_selos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .selo_envio, .selo_qualidade, .selo_contato{
+        padding-bottom: 60px;
+    }
+
+    
+}  
