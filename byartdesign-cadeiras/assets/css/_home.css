@@ -38,6 +38,11 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: var(--color-black);
+
+}
+
+.inicio:hover, .produtos:hover, .servicos:hover, .quem_somos:hover, .contatos:hover, .minha_conta:hover{
+    border-bottom: 3px solid var(--color-white);
 }
 
 .banner p{
@@ -52,13 +57,13 @@ nav ul li a{
 }
 
 .col-2{
-    flex-basis: 45%;
-    min-width: 600px;
+    flex-basis: 50%;
+    min-width: 400px;
 }
 
 .col-2 img{
-    max-width: 110%;
-    padding: 30px 0px;
+    max-width: 100%;
+    padding: 50px 0;
 }
 
 .col-2 h1{
@@ -157,7 +162,7 @@ nav ul li a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1050px;
+    max-width: 1140px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -165,8 +170,8 @@ nav ul li a{
 
 .col-3{
     flex-basis: 30%;
-    max-width: 350px;
-    margin-bottom: 30px;
+    max-width: 380px;
+    margin-bottom: 0px;
     cursor: pointer;
     position: relative;
     transition: all 0.3s ease;
@@ -189,7 +194,7 @@ nav ul li a{
 }
 
 .corpo_produtos_destaque{
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 .col-5{
@@ -247,3 +252,50 @@ nav ul li a{
     color: var(--color-yellow2);
 }
 
+.manutencao{
+    background: radial-gradient(var(--color-yellow1),var(--color-yellow2));  
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.corpo_manutencao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-6{
+    flex-basis: 40%;
+    min-width: 500px;
+}
+
+.col-6 img{
+    max-width: 125%;
+    padding-right: 50px;
+}
+
+.col-6 h1{
+    font-size: 45px;
+    line-height: 60px;
+    margin: 25px 0px;
+}
+
+.col-6 h1 p{
+    font-weight: 600;
+    color: var(--color-black);
+}
+
+.small{
+    color: var(--color-dark);
+}
+
+.col-7{
+    flex-basis: 30%;
+    max-width: 380px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
