@@ -96,13 +96,14 @@ nav ul li a{
 
 .selos{
     width: 100%;
-    background-color: var(--color-white); /* Cor de fundo */
+    background-color: var(--color-white); 
     padding: 40px 0;
     margin: 50px 0;
+    margin-bottom: 100px;
 }
 
 .corpo_selo{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -110,7 +111,7 @@ nav ul li a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 26px;
+    gap: 40px;
 }
 
 .selo_envio, .selo_qualidade, .selo_contato, .selo_seguranca{
@@ -155,7 +156,7 @@ nav ul li a{
 }
 
 .categorias{
-    margin: 70px 0;
+    margin: 150px 0;
 }
 
 .corpo_categorias{
@@ -174,8 +175,9 @@ nav ul li a{
     margin-bottom: 0px;
     cursor: pointer;
     position: relative;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     border: none !important;
+    text-align: center;
 }
 
 .col-3:hover{
@@ -188,13 +190,18 @@ nav ul li a{
     object-position: center;
 }
 
+.col-3 h4{
+    padding-top: 8px;
+    font-weight: 600;
+}
+
 .col-3:hover img{
     transform: scale(1.05);
     filter: drop-shadow(0 0 8px #000000);
 }
 
 .corpo_produtos_destaque{
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .col-5{
@@ -207,7 +214,7 @@ nav ul li a{
 }
 
 .col-5:hover{
-    transform: scale(1.04);
+    transform: scale(1.03);
     box-shadow: none !important;
     border-bottom: 3px solid var(--color-yellow2);
 }
@@ -249,13 +256,23 @@ nav ul li a{
 }
 
 .classificacao{
+    max-width: 100%;
+    align-items: center;
     color: var(--color-dark);
+}
+
+.classificacao ion-icon{
+    width: 16px;         
+    height: 16px;        
+    font-size: 16px !important; 
+    display: inline-block; 
 }
 
 .manutencao{
     background: radial-gradient(var(--color-yellow1),var(--color-yellow2));  
     margin-top: 80px;
     padding: 30px 0;
+    
 }
 
 .corpo_manutencao{
@@ -297,6 +314,7 @@ nav ul li a{
 
 .depoimentos{
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .corpo_depoimentos{
@@ -353,3 +371,88 @@ nav ul li a{
 }
 
 /*---------- DEPOIMENTOS ----------*/
+
+/*---------- MARCAS ----------*/
+
+/*.marcas{
+    margin: 100px auto;
+}
+
+.corpo_marcas{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.col-8{
+    flex-basis: 20%;
+    width: 180px;
+    cursor: pointer;
+}
+
+.col-8 img{
+    max-width: 100%;
+}*/
+
+/*---------- MARCAS ----------*/
+
+/*---------- RODAPÉ ----------*/
+
+.rodape{
+    background-color: var(--color-yellow-footer);
+    color: var(--color-dark);
+    padding: 60px 0 40px;
+    font-size: 14px;
+}
+
+.container_rodape{
+    max-width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.rodape p{
+    color: var(--color-dark);
+}
+
+.rodape h3{
+    color: var(--color-dark);
+    margin-bottom: 10px;
+}
+
+.rodape_col-1, .rodape_col-2, .rodape_col-3, .rodape_col-4,.rodape_col-5{
+    min-width: 200px;
+    margin-bottom: 10px;
+}
+
+
+
+.rodape_col-1 img{
+    width: 140px;
+}
+
+.rodape_col-1,.rodape_col-2, .rodape_col-3, .rodape_col-4, .rodape_col-5{
+    flex-basis: 16%;
+    text-align: right;
+}
+
+.rodape_col-4 img{
+    width: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.rodape hr{
+    border: none;
+    height: 1px;
+    background-color: var(--color-dark);
+    margin: 20px 0;
+}
+
+.direitos{
+    text-align: center;
+}
+
+/*---------- RODAPÉ ----------*/
