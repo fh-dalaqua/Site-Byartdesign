@@ -58,7 +58,7 @@ nav ul li a{
 
 .col-2{
     flex-basis: 50%;
-    min-width: 400px;
+    min-width: 300px;
 }
 
 .col-2 img{
@@ -202,6 +202,7 @@ nav ul li a{
 
 .corpo_produtos_destaque{
     padding-top: 40px;
+    max-width: 1880px;
 }
 
 .col-5{
@@ -268,30 +269,33 @@ nav ul li a{
     display: inline-block; 
 }
 
+/*---------- BANNER 2 ----------*/
 .manutencao{
     background: radial-gradient(var(--color-yellow1),var(--color-yellow2));  
     margin-top: 80px;
     padding: 30px 0;
-    
+    min-height: 400px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .corpo_manutencao{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1500px;
+    max-width: 1300px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
 }
 
 .col-6{
-    flex-basis: 40%;
-    min-width: 500px;
+    flex-basis: 50%;
+    min-width: 300px;
 }
 
 .col-6 img{
-    max-width: 125%;
+    max-width: 100%;
     padding-right: 50px;
 }
 
@@ -309,6 +313,7 @@ nav ul li a{
 .small{
     color: var(--color-dark);
 }
+/*---------- BANNER 2 ----------*/
 
 /*---------- DEPOIMENTOS ----------*/
 
@@ -456,3 +461,11 @@ ul{
 }
 
 /*---------- RODAPÉ ----------*/
+
+/*---------- MENU_CELULAR ----------*/
+.menu_celular{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+/*---------- MENU_CELULAR ----------*/
