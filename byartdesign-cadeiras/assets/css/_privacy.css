@@ -1,0 +1,31 @@
+.privacy{
+    margin: 0 0 80px 0;
+}
+
+.conteiner_privacy{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.col_10{
+    padding: 20px 0 20px 0;
+    text-align: left;
+    max-width: 500px;
+
+}
+
+.col_10 h1{
+    line-height: 50px;
+    font-size: 30px;
+    flex-basis: 30%;
+}
+
+.col_10 h3{
+    font-size: 15px
+}
+
+.col_10 p{
+    padding-top: 15px;
+    font-size: 14px;
+}

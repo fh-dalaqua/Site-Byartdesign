@@ -38,7 +38,6 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: var(--color-black);
-
 }
 
 .inicio:hover, .produtos:hover, .servicos:hover, .quem_somos:hover, .contatos:hover, .minha_conta:hover{
@@ -216,6 +215,7 @@ nav ul li a{
 
 .col-5:hover{
     transform: scale(1.03);
+    transform-origin: top bottom;
     box-shadow: none !important;
     border-bottom: 3px solid var(--color-yellow2);
 }
@@ -429,8 +429,6 @@ nav ul li a{
     margin-bottom: 10px;
 }
 
-
-
 .rodape_col-1 img{
     width: 140px;
 }
@@ -448,11 +446,20 @@ ul{
     list-style-type: none;
 }
 
+.container_rodape a{
+    text-decoration: none;
+    color: var(--color-dark);
+}
+
 .rodape hr{
     border: none;
     height: 1px;
     background-color: var(--color-dark);
     margin: 20px 0;
+}
+
+.rodape li{
+    cursor: pointer;
 }
 
 .direitos{

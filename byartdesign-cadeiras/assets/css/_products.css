@@ -36,7 +36,7 @@
     position: relative;
 }
 
-.paginacao span:first-child{
+.paginacao a:first-child{
     padding: 10px 12px 10px 12px;
     background-color: var(--color-gray-paginacao);
 }
