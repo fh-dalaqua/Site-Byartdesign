@@ -1,0 +1,37 @@
+.contato{
+    margin: 80px 0 80px;
+}
+
+.conteiner_contato{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.col_9{
+    padding: 10px;
+    text-align: center;
+    flex-basis: 30%;
+    max-width: 400px;
+}
+
+.titulo_endereco{
+    margin-top: 60px;
+}
+
+.col_9 h2{
+    font-size: 30px;
+}
+
+.col_9 p{
+    font-size: 14px;
+}
+
+.col_9 a{
+    color: blue;
+}
+
+.col_9 img{
+    width: 80%;
+    padding: 0 0 10px;
+}

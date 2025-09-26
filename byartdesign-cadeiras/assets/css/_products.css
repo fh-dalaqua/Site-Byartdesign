@@ -1,0 +1,53 @@
+.novoMenu{
+    background-color: var(--color-yellow1);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.linha2{
+    margin: 100px 50px 50px;
+    justify-content: space-between;
+}
+
+.titulo2{
+    text-align: left;
+}
+
+.linha2 select{
+    padding: 5px;
+    border: 1px solid var(--color-dark);
+    border-radius: 7%;
+}
+
+.linha2 select:focus{
+    justify-content: center;
+    outline: none;
+}
+
+/*---------- PAGINAÇÃO ----------*/
+.paginacao{
+    text-align: center;
+    margin: 40px 0 100px;
+}
+
+.paginacao span{
+    border: 1px solid var(--color-dark);
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.paginacao a:first-child{
+    padding: 10px 12px 10px 12px;
+    background-color: var(--color-gray-paginacao);
+}
+
+.paginacao span:hover{
+    background-color: var(--color-gray-paginacao);
+}
+
+.paginacao a{
+    border: none;
+    text-decoration: none;
+}
+
+/*---------- PAGINAÇÃO ----------*/
